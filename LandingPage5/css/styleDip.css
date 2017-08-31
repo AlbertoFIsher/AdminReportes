@@ -1,0 +1,54 @@
+.pres{
+	 font-size: 20px;
+    line-height: 1.2em;
+        cursor: default;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.pres:hover{
+	cursor: pointer;
+	color: rgb(0, 102, 153); 
+}
+
+.linea{
+
+	border-radius: 10px;
+	vertical-align: top;
+	width: 230px;
+}
+
+
+.n_style{
+	
+   list-style-image: url("../images/marker-2.png");
+   
+   padding-left: 22px;
+}
+
+
+.n_margen{
+
+	margin-left: 0px;
+	color: black;
+}
+
+.img_dip{
+
+	padding-bottom: 10px;
+}
+
+
+.sele:hover{
+
+	cursor: pointer;
+}
+
+
+.uper{
+text-transform: uppercase;
+}
+
+

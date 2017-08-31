@@ -1,0 +1,75 @@
+.sf-menu > li > a > div span {
+  
+  padding: 22px 18px;
+}
+ 
+
+.reduccion{
+
+	text-align: left;
+	width: 37%;
+}
+.fecha{
+
+
+background-color: #247EBB;
+color:white;
+font-weight: bold;
+
+}
+
+
+.dist{
+
+margin-top: 5px;
+margin-left: 16px;
+
+}
+
+.dist2{
+
+margin-top: 5px;
+margin-left: 67%;
+
+}
+
+.letra{
+
+font-weight: bolder;
+color:black;
+
+}
+
+
+
+.linea{
+
+
+	display: none;
+
+}
+
+.lunesViernes{
+
+display: none;
+
+
+}
+.esp{
+
+
+	display: none;
+
+}
+.sab{
+
+
+	display: none;
+}
+
+.ddtic {
+  font: 400 36px/46px 'Pacifico', cursive;
+  color: #ffffff;
+  display: inline-block;
+  white-space: nowrap;
+}

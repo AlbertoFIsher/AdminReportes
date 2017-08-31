@@ -1,0 +1,166 @@
+.contenedor_form{
+	
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1050;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+
+.margen_form{
+
+	margin: 131px auto ;
+    position: relative;
+    width: 600px;
+    height: auto;
+}
+
+.elemento_form{
+	border-radius: 3px;
+	background-color: #2C3E50;
+	color: white;
+	height: 607px;
+
+
+
+}
+
+.datos_form{
+    background-color: #F1F1F1;
+    border-radius: 4px;
+    border-width: 0px;
+    width: 513px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 479px;
+	
+}
+
+.boton_cerrar{
+	font-weight: bold;
+    background-color: rgba(255,0,0,0);
+    color: white;
+    cursor: pointer;
+    border: 0px;
+    text-align: right;
+	margin-right: 10px
+
+}
+.title_env{
+
+	margin-top: 31px;
+	font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.dest{
+    background-color: #DDDDDD;
+    color: #757575;
+    margin: 10px 150px;
+    width: 213px;
+    height: 33px;
+    border-radius: 5px;
+    border-style: none;
+    text-align: center;
+    font-size: 19px;
+    /*border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-top-style: inset;
+    border-width: 2px;*/
+    
+}
+
+.dest::placeholder{
+    color: #C6C6C6;
+}
+
+.men{
+    background-color: #DDDDDD;
+    color: #757575;
+    margin: 10px 10px;
+    width: 489px;
+    height: 345px;
+    border-radius: 5px;
+    border-style: none;
+    text-align: justify;
+    font-size: 19px;
+    resize: none;
+    /*border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-top-style: inset;
+    border-width: 2px;*/
+    
+}
+
+.men::placeholder{
+
+
+    color: #C6C6C6;	
+
+}
+
+.boton_enviar{
+
+	margin: 10px 242px;
+    width: 116px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(46,204,113);
+    border-width: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.fondo{
+                 
+    background-image: url("../imagenes/fondo.png") !important; 
+    background-size: cover !important;
+    z-index: -1;
+}
+
+.imgP{
+    text-align: center;
+    text-align: -moz center;
+    text-align: -webkit center;
+    background-color:rgb(249,243,143);
+}      
+
+.texto{
+    text-align: left !important;
+    color: black !important;
+    font-size: 14px !important;
+    font-family:Verdana, Geneva, sans-serif;
+    
+
+}     
+
+.titulo{
+     font-size: 15px !important;      
+     text-align: left;
+     color: black !important ;
+     font-weight: bolder;
+     
+     font-family:Verdana, Geneva, sans-serif;
+}
+
+  
+
+iframe.ytb-embed {
+max-width: 100% !important;
+display: block;
+margin: 10px auto;
+}
+
+
+.bord{
+
+  border:none !important;
+}

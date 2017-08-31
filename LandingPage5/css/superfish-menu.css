@@ -1,0 +1,276 @@
+/* ======= Main menu variables ======= */
+/* ======= Sub menus common variables ======= */
+/* ======= First level sub menu variables ======= */
+nav {
+  float: right;
+  /* Landscape phone to portrait tablet */
+}
+@media (max-width: 1366px) {
+  nav {
+    display: inline-block;
+  }
+}
+@media (max-width: 979px) {
+  nav {
+    /*      float:none;
+      display:block;
+      width:100%;
+      text-align:center;*/
+  }
+}
+@media (max-width: 767px) {
+  nav {
+    background: none;
+    border: none;
+  }
+}
+/* Main menu styles
+========================================================*/
+.sf-menu > li {
+  letter-spacing: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  text-align: center;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+.sf-menu > li.with-menu {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-top: 0;
+  margin-right: 11px;
+  padding: 25px 17px 24px 25px;
+  position: relative;
+}
+.sf-menu > li.with-menu:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  display: none;
+  top: -5px;
+  width: 100%;
+  height: 5px;
+  background: #323232;
+}
+@media (max-width: 979px) {
+  .sf-menu > li {
+    /*              margin-top: 0;
+      &:first-child{
+        margin-left:30px;
+      };
+      */
+  }
+}
+.sf-menu > li.last-menu-item {
+  margin-right: 0px;
+}
+@media (max-width: 1200px) {
+  .sf-menu > li.last-menu-item {
+    margin-right: 0px;
+  }
+}
+.sf-menu > li > .sf-with-ul {
+  /*      &:after {
+        .after(14px);
+        content: "\f078";
+        color: @main-menu-color;
+        bottom: 5px;
+        left: 50%;
+        margin-left: -7px;
+        .transition(all 0.3s ease);
+      }*/
+}
+.sf-menu > li > a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.sf-menu > li > a > div {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+}
+.sf-menu > li > a > div:first-child {
+  /*.rotateZ(0deg);*/
+  position: absolute;
+}
+.sf-menu > li > a > div:first-child + div {
+  top: -100px;
+}
+.sf-menu > li > a > div span {
+  position: relative;
+  display: block;
+  font: 700 12px/12px 'Open Sans', sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 22px 18px;
+  margin: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.sf-menu > li.active,
+.sf-menu > li.sfHover,
+.sf-menu > li:hover {
+  z-index: 10;
+}
+.sf-menu > li.active > a,
+.sf-menu > li.sfHover > a,
+.sf-menu > li:hover > a {
+  text-decoration: none;
+  background: #247ebb;
+}
+.sf-menu > li.active > a > div:first-child,
+.sf-menu > li.sfHover > a > div:first-child,
+.sf-menu > li:hover > a > div:first-child {
+  top: 200px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.sf-menu > li.active > a > div:first-child + div,
+.sf-menu > li.sfHover > a > div:first-child + div,
+.sf-menu > li:hover > a > div:first-child + div {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  top: 0;
+}
+.sf-menu > li.active > a > div span,
+.sf-menu > li.sfHover > a > div span,
+.sf-menu > li:hover > a > div span {
+  color: #ffffff;
+}
+.sf-menu > li.current {
+  z-index: 10;
+}
+.sf-menu > li.current > a {
+  text-decoration: none;
+  background: #247ebb;
+}
+.sf-menu > li.current > a > div:first-child {
+  top: 200px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.sf-menu > li.current > a > div:first-child + div {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  top: 0;
+}
+.sf-menu > li.current > a > div span {
+  color: #ffffff;
+}
+/* First level sub-menu styles
+========================================================*/
+.sf-menu ul {
+  /*.box-shadow(-1px 2px 3px 0px rgba(0, 0, 0, 0.16));*/
+  display: none;
+  min-width: 136px;
+  font: 700 12px/12px 'Open Sans', sans-serif;
+  position: absolute;
+  top: 57px;
+  left: 0;
+  background: #313131;
+  text-align: left;
+  padding: 15px 0 15px;
+  z-index: 2;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 979px) {
+  .sf-menu ul {
+    top: 62px;
+  }
+}
+.sf-menu ul li {
+  letter-spacing: 0;
+  position: relative;
+  display: block;
+  /*    >.sf-with-ul {
+      &:after {
+        .after(14px);
+        content: "\f054";
+        color: @first-menu-color;
+        bottom: 5px;
+        right: 15px;
+        .transition(all 0.3s ease);
+      }
+    }*/
+}
+.sf-menu ul li:hover > a {
+  background: #247ebb;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+.sf-menu ul li a {
+  padding: 9px 0 9px 20px;
+  display: block;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.sf-menu ul > .sfHover > a {
+  background: #u7u7u7;
+}
+.sf-menu ul > .sfHover > a:after {
+  color: #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+.sf-menu ul li.sfHover > a {
+  background: #u7u7u7;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+/* Second level sub-menu styles
+========================================================*/
+.sf-menu ul ul {
+  position: absolute;
+  top: -15px;
+  left: 137px;
+  margin-left: 0;
+  z-index: 4;
+  text-align: left;
+}
+@media only screen and (max-width: 767px) {
+  .sf-menu {
+    display: none;
+  }
+  nav {
+    width: 100%;
+    float: none;
+  }
+  .select-menu {
+    border-radius: none;
+    display: block;
+    text-transform: capitalize;
+    float: none;
+    color: #333333;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    font: 20px/26px 'Open Sans', sans-serif;
+    text-align: left;
+    border: 1px solid #c1c1c1;
+    position: relative;
+  }
+  .select-menu option {
+    text-align: left;
+    position: relative;
+  }
+}
+/*Core variables and mixins*/

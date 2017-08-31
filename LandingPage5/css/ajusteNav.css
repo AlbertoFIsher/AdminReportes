@@ -1,0 +1,11 @@
+.sf-menu > li > a > div span {
+  position: relative;
+  display: block;
+  font: 700 12px/12px 'Open Sans', sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 18px 18px;
+  margin: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}

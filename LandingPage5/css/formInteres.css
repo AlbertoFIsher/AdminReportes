@@ -1,0 +1,132 @@
+.fondo{
+                 
+            background-image: url("imagenes/fondo.png") !important; 
+            background-size: cover !important;
+            z-index: -1;
+         }
+
+         .imgP{
+                     text-align: center;
+                     text-align: -moz center;
+                     text-align: -webkit center;
+                     background-color:rgb(249,243,143);
+         }      
+
+      .texto{
+    text-align: left !important;
+    color: black !important;
+    font-size: 14px !important;
+
+         }     
+
+         .titulo{
+     font-size: 16px !important;      
+     text-align: left;
+     color: black !important ;
+     font-weight: bolder;
+
+         }
+     
+
+         .imagen img {
+
+           max-width:100% !important ;
+           width: 100%;
+         }
+         
+
+  
+
+iframe.ytb-embed {
+max-width: 100% !important;
+display: block;
+margin: 10px auto;
+}
+
+
+.bord{
+
+  border:none !important;
+}
+
+ .mensaje2{
+
+    width: 97%;
+  }
+.entrada-text{
+     width: 100%;
+     border: none;
+    height: 25px;
+    border-radius: 3px;
+    color: #05b005;
+    font-weight: bold;
+    font-size: 18px;
+   }
+  #btn_enviar{
+    width: 100% ;
+      }
+      
+
+
+
+  
+  @media (min-width: 150px) and (max-width: 650px) {
+
+  .imagen2{
+          display: none !important;
+          }
+
+         .d1{
+
+             width: 100% !important;
+         }
+         
+
+  }
+
+         
+  
+     @media (min-width: 650px) and (max-width: 3000px) {
+     .imagen{
+                  display: none !important;
+         }
+       .d1{
+         width:  40% !important;
+         display:inline-block;  
+         vertical-align: top;
+       }
+          .imagen2{
+
+    
+    display: inline-block !important ;
+    vertical-align: top;
+    width: 49%;
+    
+  }
+
+
+
+  
+  }
+  .imagen2{
+        top:0px;
+    right: -49px;
+    position: relative;
+    
+  }
+  
+
+  
+.mensaje2{
+      height: 100px;
+    max-width: 546px;
+    max-height: 150px;
+    text-align: justify;
+    padding: 5px;
+    background-color: #FCFBF3;
+
+}
+.d1{
+
+    display: inline-block;
+}

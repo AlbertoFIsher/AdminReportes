@@ -1,0 +1,41 @@
+/*==GENERAL*/
+/*Comentarios*/
+
+body{
+	padding-top: 50px;
+	background: url('../img/fondo.jpg') top left repeat;
+}
+
+.header-section{
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+
+}
+
+.wrap{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1{
+	font-family: 'graduate', cursive;
+}
+h2{
+	font-family: 'pacifico',cursive;
+}
+
+/*title % enroll*/
+
+#title-enroll .jumbotron{
+	background-color:#F5ECCE;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	text-align: center;
+	color:black;
+}
+
+/*Wha will you learn*/
+#what-learn{
+	text-align: center;
+}
